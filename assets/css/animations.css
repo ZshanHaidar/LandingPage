@@ -1,0 +1,57 @@
+/* ovals */
+
+.ovals,
+.ovals-2 {
+  justify-content: space-evenly;
+}
+/* oval animation */
+.ovals img:nth-child(1) {
+  animation: Bounce-1 5s ease infinite;
+}
+.ovals img:nth-child(2) {
+  animation: Bounce-1 7s ease infinite;
+}
+.ovals img:nth-child(3) {
+  animation: Bounce-1 6s ease infinite;
+}
+.ovals img:nth-child(4) {
+  animation: Bounce-1 9s ease infinite;
+}
+.ovals img:nth-child(5) {
+  animation: Bounce-1 4s ease infinite;
+}
+@keyframes Bounce-1 {
+  0% {
+    transform: translateY(-100px);
+  }
+
+  100% {
+    transform: translateY(-1400px);
+  }
+}
+
+/* oval-2 animation */
+.ovals-2 img:nth-child(1) {
+  animation: Bounce-2 7s ease infinite;
+}
+.ovals-2 img:nth-child(2) {
+  animation: Bounce-2 9s ease infinite;
+}
+.ovals-2 img:nth-child(3) {
+  animation: Bounce-2 8s ease infinite;
+}
+.ovals-2 img:nth-child(4) {
+  animation: Bounce-2 11s ease infinite;
+}
+.ovals-2 img:nth-child(5) {
+  animation: Bounce-2 6s ease infinite;
+}
+@keyframes Bounce-2 {
+  0% {
+    transform: translateY(-100px);
+  }
+
+  100% {
+    transform: translateY(-3350px);
+  }
+}

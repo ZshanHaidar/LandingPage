@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap");
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --bg-alice-blue: #eaf3ff;
+  --color-tufts-blue: #4a90e2;
+  --color-manatee: #9497a5;
+  --color-dark-charcoal: #333333;
+  --color-Ultra-Red: #ff7988;
+}
+
+.bg-Ultra-Red {
+  background: var(--color-Ultra-Red);
+}
+
+.bg-alice-blue {
+  background-color: var(--bg-alice-blue);
+}
+
+.bg-cornsilk {
+  background: #fff2de !important;
+}
+
+.bg-nyanza {
+  background: #ecffd7 !important;
+}
+
+.bg-misty-rose {
+  background: #ffe2e5 !important;
+}
+
+body {
+  font-family: "Sora", sans-serif;
+}
+
+p {
+  color: rgba(51, 51, 51, 0.5);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+}
+
+h1 {
+  color: var(--color-dark-charcoal);
+  /* text-align: center; */
+  font-size: 56px;
+  font-weight: 700;
+  /* line-height: 64px; 114.286% */
+  letter-spacing: -2px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.mx-auto {
+  margin: 0 auto;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+hr {
+  background: #e1eaf6;
+}
+
+.container {
+  padding: 16px;
+}
+
+.btn a {
+  padding: 15px 32px;
+  background-color: transparent;
+  border-radius: 6px;
+  border: 1px solid rgba(74, 144, 226, 0.3);
+  color: var(--color-tufts-blue);
+  font-family: Sora;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1400px;
+  }
+}
